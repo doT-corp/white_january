@@ -1,6 +1,6 @@
 # White January / Janeiro Branco
-<b>Projeto dedicado ao SENAI, com intuito de ajudar as pessoas a entenderem um pouco mais sobre o significado do mês de Janeiro =)</b><br>
-<b>Project dedicated to SENAI, aiming to help people understand a little more about the meaning of the month of January =)</b><br>
+<b>Projeto dedicado ao SENAI-SP, com intuito de ajudar as pessoas a entenderem um pouco mais sobre o significado do mês de Janeiro =)</b><br>
+<b>Project dedicated to SENAI-SP, aiming to help people understand a little more about the meaning of the month of January =)</b><br>
 <br><img src="preview.png"/><br>
 <i><b>Made with <a href="https://bit.ly/3F8qZlg">Android Studio</a>
 <br>Language: Java</b></i><br>
