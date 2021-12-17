@@ -25,15 +25,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/primary_dark"
             android:layout_margin="10dp"
-            android:paddingTop="10dp"
+            android:paddingHorizontal="162dp"
+            android:paddingTop="110dp"
             android:paddingBottom="10dp"
-            android:textSize="23dp"
-            android:paddingHorizontal="148dp"
-            android:textAlignment="center"
             android:text="@string/splash_intro"
-            />
+            android:textAlignment="center"
+            android:textColor="@color/primary_dark"
+            android:textSize="18dp" />
 
 
     </LinearLayout>

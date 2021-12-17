@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#FFFFFF"
-    tools:context=".MainActivity">
+    tools:context=".EmailActivity">
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -24,57 +23,75 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:layout_editor_absoluteX="20dp">
 
-            <!-- imagem -->
+            <!-- Texto Senai -->
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="350dp"
+                android:layout_height="300dp"
                 android:layout_marginTop="30dp"
-                android:layout_marginBottom="0dp"
-                android:src="@drawable/com" />
+                android:src="@drawable/logo"  />
 
-            <!-- Texto Resumo -->
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/icons"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp"
+                android:textStyle="bold"
+                android:text="@string/tela_email"
+                />
+            <TextView
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/primary_dark"
                 android:layout_margin="10dp"
                 android:paddingTop="10dp"
-                android:paddingBottom="20dp"
-                android:textSize="18dp"
+                android:paddingBottom="10dp"
+                android:textSize="16dp"
+                android:paddingHorizontal="8dp"
                 android:textAlignment="center"
-                android:text="@string/resumo"
+                android:text="Para feedbacks: victorssantos572@gmail.com"
                 />
 
+            <EditText
+                android:id="@+id/txtTo"
+                android:backgroundTint="@color/icons"
+                android:textColorHint="@color/icons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Para"/>
+
+            <EditText
+                android:id="@+id/txtSub"
+                android:backgroundTint="@color/icons"
+                android:textColorHint="@color/icons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Assunto"/>
+            <EditText
+                android:id="@+id/txtMsg"
+                android:backgroundTint="@color/icons"
+                android:textColorHint="@color/icons"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:hint="Mensagem"/>
             <Button
-                android:id="@+id/btn_info"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_marginTop="10dp"
                 android:textColor="@color/primary_light"
                 android:background="@drawable/rounded"
-                android:text="@string/f_btn"/>
-
-            <Button
-                android:id="@+id/btn_site"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_marginTop="10dp"
-                android:textColor="@color/primary_light"
-                android:background="@drawable/rounded"
-                android:text="@string/link_btn"/>
-
-            <Button
-                android:id="@+id/btn_email"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_marginTop="10dp"
-                android:textColor="@color/primary_light"
-                android:background="@drawable/rounded"
-                android:text="@string/contact_btn"/>
-
+                android:text="Enviar"
+                android:id="@+id/btnSend"/>
 
         </LinearLayout>
 

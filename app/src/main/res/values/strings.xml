@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">Janeiro Branco</string>
     <string name="splash_intro">Dot. Inc.</string>
+    <string name="content_start">Projeto dedicado ao SENAI, com intuito de ajudar as pessoas a entenderem um pouco mais sobre o significado do mês de Janeiro</string>
+    <string name="btn_start">Começar!</string>
+    <string name="resumo">Este mês é muito especial para aqueles que passaram por imensas dificuldade sem suas vidas. Veja algumas das opções para começar sua experiência.</string>
+    <string name="f_btn">Informações rápidas</string>
+    <string name="contact_btn">Contato!</string>
+    <string name="link_btn">Acesse o site!</string>
+    <string name="Title">O que é o Janeiro Branco?</string>
+    <string name="f_content">OO Janeiro Branco é uma campanha ao estilo da Campanha Outubro Rosa e da Campanha Novembro Azul. 
+O principal objetivo da campanha é discutir a relevância da saúde mental e do cuidado com as emoções. </string>
+    <string name="ftitle">Por que Janeiro Branco? </string>
+    <string name="s_content">A Campanha Janeiro Branco foi idealizada para o primeiro mês do ano a fim de aproveitar esse momento de reflexão e de planejamento atrelado à simbologia de recomeço.</string>
+    <string name="tela_email">Enviar Email</string>
 </resources>
